@@ -1,0 +1,33 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--<item name="android:dropDownItemStyle">@style/CustomDropDownItemStyle</item>-->
+        <!--<item name="android:dropDownListViewStyle">@style/CustomDropDownListViewStyle</item>-->
+
+        <item name="textAppearanceSearchResultTitle">@style/CustomSearchResultTitle</item>
+        <item name="textAppearanceSearchResultSubtitle">@style/CustomSearchResultSubtitle</item>
+    </style>
+
+    <!--<style name="CustomDropDownItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">-->
+        <!--<item name="android:textColor">@android:color/holo_red_dark</item>-->
+        <!--<item name="android:textSize">32sp</item>-->
+    <!--</style>-->
+
+    <!--<style name="CustomDropDownListViewStyle" parent="Widget.AppCompat.ListView.DropDown">-->
+        <!--<item name="android:textColor">@android:color/holo_red_dark</item>-->
+    <!--<item name="android:textSize">32sp</item>-->
+    <!--</style>-->
+
+    <style name="CustomSearchResultTitle" parent="TextAppearance.AppCompat.SearchResult.Title">
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="CustomSearchResultSubtitle" parent="TextAppearance.AppCompat.SearchResult.Subtitle">
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+</resources>
